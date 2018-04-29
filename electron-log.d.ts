@@ -51,7 +51,7 @@ declare interface ITransports {
   [key: string]: ITransport;
 }
 
-declare interface IElectronLog {
+export declare interface IElectronLog {
   transports: ITransports;
   error(...params: any[]): void;
   warn(...params: any[]): void;
